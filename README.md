@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Monitoreo y evaluación de la etapa de producción**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF7_936107_CHOCOLATERIA/](https://ecored-sena.github.io/CF7_936107_CHOCOLATERIA/)
 
 #
 
