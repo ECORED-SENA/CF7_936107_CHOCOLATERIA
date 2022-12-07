@@ -130,7 +130,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/PjwXkTIFZ4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto 
@@ -372,6 +372,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.mb-4.mb-lg-0
+        p.text-bold.text-center Procedimiento general de limpieza
         .bg_09.p-4.ps-5
           SlyderA(tipo="b")(data-aos="fade-right").bullets_sly-t4.bullets-active_sly-t4
             .row.justify-content-center
@@ -455,6 +456,7 @@
                 div
                   p Luego del enjuague se observa detenidamente el lugar o superficie que se limpió para verificar que haya sido eliminada toda la suciedad. En caso de necesitar se repite la operación hasta que quede completamente limpio.
       .col-lg-6
+        p.text-bold.text-center Procedimiento general de desinfección
         .bg_05.p-4.px-5
           SlyderA(tipo="b")(data-aos="fade-right").bullets_sly-t4.bullets-active_sly-t4
             .row.justify-content-center
