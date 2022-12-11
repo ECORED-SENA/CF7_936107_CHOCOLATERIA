@@ -276,7 +276,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

@@ -171,7 +171,7 @@
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img14.png', alt='')
               p.text-bold Termómetro de vidrio:
-              p el líquido que contiene es mercurio, se expande cuando se calienta y sube por el tubular y marca en la escala el valor de la temperatura.
+              p El líquido que contiene es mercurio, se expande cuando se calienta y sube por el tubular y marca en la escala el valor de la temperatura.
         .col-lg-4.col-md-6.col-12.mb-4.mb-lg-0
           .bg_04.p-4
             .row.justify-content-center
@@ -179,7 +179,7 @@
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img15.png', alt='')
               p.text-bold Termómetro bimetálico:
-              p determina la temperatura utilizando el coeficiente de dilatación desigual entre dos láminas de diferentes metales, firmemente conectadas, lo que se denomina lámina bimetálica. 
+              p Determina la temperatura utilizando el coeficiente de dilatación desigual entre dos láminas de diferentes metales, firmemente conectadas, lo que se denomina lámina bimetálica. 
         .col-lg-4.col-md-6.col-12.mb-4.mb-lg-0
           .bg_04.p-4
             .row.justify-content-center.mb-5
@@ -187,7 +187,7 @@
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img16.png', alt='')
               p.text-bold Termómetro de bulbo:
-              p consiste en un bulbo que se conecta por un capilar en forma de espiral, existen tres tipos, el que se funciona por líquidos, vapor, gas y mercurio.  
+              p Consiste en un bulbo que se conecta por un capilar en forma de espiral, existen tres tipos, el que se funciona por líquidos, vapor, gas y mercurio.  
 
     .row
       .col-lg-12
