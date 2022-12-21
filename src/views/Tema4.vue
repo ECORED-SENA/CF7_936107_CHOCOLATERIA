@@ -25,8 +25,8 @@
               img.img-t.m-auto(src='@/assets/curso/tema1/img03.svg')
             .col-9.col-lg-10
               h4.m-0.color-text1 Condiciones específicas de limpieza de los equipos de producción de cobertura de chocolate
-          .bg_12.px-5
-            SlyderA(tipo="b")(data-aos="fade-right").bullets_sly-t4.bullets-active_sly-t4
+          .bg_12.px-4.px-lg-5.pb-2
+            SlyderA(tipo="b")(data-aos="fade-right")
               .row.justify-content-center
                 .col-lg-12
                   ol.lista-ol--cuadro
@@ -34,7 +34,7 @@
                       .lista-ol--cuadro__vineta
                         span 1
                   div
-                    p.m-0 Los equipos y utensilios empleados en el manejo de alimentos deben estar fabricados con materiales resistentes al uso y a la corrosión, así como a la utilización frecuente de los agentes de limpieza y desinfección.
+                    p Los equipos y utensilios empleados en el manejo de alimentos deben estar fabricados con materiales resistentes al uso y a la corrosión, así como a la utilización frecuente de los agentes de limpieza y desinfección.
               .row.justify-content-center
                 .col-lg-12
                   ol.lista-ol--cuadro.mt-4
@@ -139,12 +139,12 @@
         h4.m-0.color-text1 Limpieza y desinfección
 
     p Las condiciones de higiene en manipulación de alimentos son bastante exigentes, ya que la legislación busca proteger la salud de los consumidores al garantizar que los alimentos que se transformen o elaboren sean completamente inocuos. 
-    p De esta forma, para las buenas prácticas de higiene se hace una distinción clara entre la limpieza y la desinfección siendo la primera la separación de partículas de suciedad, polvo, materia orgánica depositada en cualquier superficie y en sí, cualquier sustancia que no pertenezca a la superficie a limpiar, el proceso para eliminar dicha suciedad se hace por medio mecánico o físico al ejercer fuerza con implementos abrasivos como esponjas, cepillos, escobas etc.   
+    p.mb-4.mb-lg-5 De esta forma, para las buenas prácticas de higiene se hace una distinción clara entre la limpieza y la desinfección siendo la primera la separación de partículas de suciedad, polvo, materia orgánica depositada en cualquier superficie y en sí, cualquier sustancia que no pertenezca a la superficie a limpiar, el proceso para eliminar dicha suciedad se hace por medio mecánico o físico al ejercer fuerza con implementos abrasivos como esponjas, cepillos, escobas etc.   
 
     .bg_13.p-4    
       .row.justify-content-between        
         .col-lg-7(data-aos="fade-right")
-          p.mb-5.ms-4 Distinto a la desinfección que busca eliminar microorganismos presentes en cualquier superficie por medios químicos usando sustancias que el con capacidad bactericida o inhibidora del desarrollo de dichos microorganismos. 
+          p.mb-4.mb-lg-5.ms-2.ms-lg-4 Distinto a la desinfección que busca eliminar microorganismos presentes en cualquier superficie por medios químicos usando sustancias que el con capacidad bactericida o inhibidora del desarrollo de dichos microorganismos. 
           p.pt-4 Los procedimientos de limpieza y desinfección deben satisfacer las necesidades particulares del proceso y del producto de que se trate. Se debe de tener por escrito todos los procedimientos, incluyendo los agentes y sustancias utilizadas, así como las concentraciones o formas de uso, tiempos de contacto y los equipos e implementos requeridos para efectuar las operaciones y periodicidad de limpieza y desinfección.
         .col-lg-5(data-aos="fade-left")
           figure
@@ -255,7 +255,7 @@
                 td.text-center(colspan="3") 45°C
                 td.text-center(colspan="3") 100 ml de principio activo en 10 litros de agua segura
 
-    p Según la tabla anterior se puede ver la diferencia entre una sustancia para eliminar la suciedad (el limpiador) y una para inhibir el desarrollo y eliminar los microorganismos (bacterias, hongos, levaduras, etc)
+    p Según la tabla anterior se puede ver la diferencia entre una sustancia para eliminar la suciedad (el limpiador) y una para inhibir el desarrollo y eliminar los microorganismos (bacterias, hongos, levaduras, etc.).
     p.mb-5 El orden de uso siempre debe ser el limpiador primero y luego de retirar todas las partículas de mugre se procede a aplicar los desinfectantes, ya que sustancias como el hipoclorito se desactivan al contacto con materia orgánica perdiendo su poder bactericida. Otro factor clave en términos de rentabilidad es cuidar la dosificación, ya que muchas veces los operarios creen que al aplicar más producto están haciendo una mejor labor, incurriendo en gastos innecesarios e incluso generando vapores que pueden llegar a ser tóxicos. 
                        
     .row.align-items-center.mb-4(data-aos="fade-right")
@@ -339,9 +339,34 @@
         .col-lg-10.d-none.d-lg-block
           figure
             img.img-t.m-auto(src='@/assets/curso/tema4/img10.svg', alt='')
-        .col-12.d-lg-none.d-md-block
-          figure
-            img.img-t.m-auto(src='@/assets/curso/tema4/img11.svg', alt='')
+        .col-12.col-md-10.d-lg-none.d-md-block
+          .bg_color4.p-4
+            .row.justify-content-center.mb-5
+              .col-lg-12.col-md-10
+                figure
+                  img.img-t.m-auto.mb-5(src='@/assets/curso/tema4/img11-1.svg', alt='')
+                ol.lista-ol--cuadro.m_li-vineta
+                  li.mb-4.d-flex.align-items-center
+                    .lista-ol--cuadro__vineta
+                      span 1
+                    | Antes de iniciar las tareas se debe confirmar que la producción está completamente parada.
+                  li.mb-4.d-flex.align-items-center 
+                    .lista-ol--cuadro__vineta
+                      span 2
+                    | Se cubren adecuadamente tableros, motores e instrumentos. 
+                  li.mb-4.d-flex.align-items-center 
+                    .lista-ol--cuadro__vineta
+                      span 3
+                    | Se manipula el detergente y el desinfectante con precaución, usando delantal de plástico, guantes y lentes de seguridad. 
+                  li.mb-4.d-flex.align-items-center 
+                    .lista-ol--cuadro__vineta
+                      span 4
+                    | Se adiciona el detergente o desinfectante al agua y nunca al revés. No se mezclan productos ácidos con productos alcalinos (provocan una reacción violenta). 
+                  li.d-flex.align-items-center 
+                    .lista-ol--cuadro__vineta
+                      span 5
+                    | Se utilizan lentes protectoras y no se mezclan productos clorados con productos ácidos (provocan desprendimiento de gas cloro).
+
       
       p.mb-5 Cabe resaltar que al momento de realizar estas labores no debe estar expuesto ningún alimento, insumo o alimento para evitar la contaminación.  El cacao posee propiedades higroscópicas lo cual hace que absorba olores y sabores del entorno muy fácilmente.  Otro factor importante es tener presente los requisitos de limpieza de la maquinaria presente y las recomendaciones del fabricante expuestas en el manual o en capacitaciones de la fábrica. Todas estas consideraciones deben estar estandarizadas y previamente socializadas con el personal de limpieza. 
 
@@ -351,12 +376,14 @@
         .col-8.col-lg-6
           h4.m-0.color-text1 Frecuencia
 
-    .bloque-texto-g.color-acento-botones.p-4.p-md-5.mb-5(data-aos="zoom-in-right")
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/tema4/img12.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 En la elaboración o transformación de alimentos la frecuencia de la limpieza y desinfección depende de varios factores como:  tipo de alimento, tiempos de producción, espacio entre tandas de producción entre otras. 
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .bloque-texto-g.color-acento-botones.p-4.p-md-5(data-aos="zoom-in-right")
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema4/img12.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 En la elaboración o transformación de alimentos la frecuencia de la limpieza y desinfección depende de varios factores como:  tipo de alimento, tiempos de producción, espacio entre tandas de producción, entre otras. 
          
     p Sin embargo, como consideración general  el proceso de limpieza se debe realizar antes y después de cada proceso productivo, con la limpieza inicial se garantiza que contaminantes como polvo o partículas extrañas no entren en contacto con los alimentos ni la maquinaria, y garantiza que el proceso se inicie con la mejor higiene posible; y  la limpieza final cumple también la función de evitar la presencia de animales  y plagas indeseables que comprometan la inocuidad del proceso, un ejemplo de esto es la presencia de roedores en las fábricas de alimentos, puede que los empleados no noten su presencia en las labores de trabajo pero los roedores tienen a dejar orina y excrementos a su paso contaminado las superficies a las que tengan acceso.  
     p.text-bold A modo general depende de los protocolos internos y debe cumplir mínimo con los siguientes requisitos: 

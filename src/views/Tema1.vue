@@ -13,9 +13,9 @@
           img.img-t.m_left(src='@/assets/curso/introduccion/img01.svg')
 
     .row.justify-content-center.mb-4.m_top5
-      .col-lg-7(data-aos="fade-right")
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p Establecer los parámetros de calidad químicas, higiénicas y físicas son determinantes para obtener un producto final con las características deseadas; es así que, en los cacaos de aromas utilizados actualmente para la industria chocolatera, se hace necesario evaluar la calidad del grano. 
-        .bg_color1.p-5.py-4
+        .bg_color01.p-5.py-4
           p En la evaluación de la calidad del grano se utilizan diferentes equipos con el fin de lograr el producto final, que en este caso es el chocolate. <b>En este es importante medir la presión, peso, volumen y temperatura en cada fase.</b> A continuación, se explica cómo se realiza:
       .col-lg-5(data-aos="fade-left")
         figure
@@ -37,28 +37,32 @@
       p.text-bold.mb-5(data-aos="fade-right") Existen varios tipos de presión, los siguientes son las que se asocian en la transformación del cacao:
 
       .row.justify-content-center.align-items-center(data-aos="fade-left")
-        .col-lg-12.col-md-8
-          SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-            .tarjeta.bg_02.p-4
-              figure.mb-4
-                img.img-t.m-auto(src='@/assets/curso/tema1/img04.svg')
-              h4 Presión atmosférica: 
-              p Fuerza que ejerce el aire sobre una superficie, esta depende de la altura del nivel del mar, cuando es mayor la altura, la presión es menor y cuando es menor la altura, la presión es mayor. 
-            .tarjeta.bg_02.p-4
-              figure.mb-4
-                img.img-t.m-auto(src='@/assets/curso/tema1/img05.svg')
-              h4 Presión manométrica: 
-              p Es la diferencia entre la presión absoluta y la atmosférica. Se aplica cuando la presión absoluta es mayor a la atmosférica, cuando esta presión es negativa se llama presión de vacío. 
-            .tarjeta.bg_02.p-4
-              figure.mb-4
-                img.img-t.m-auto(src='@/assets/curso/tema1/img06.svg')
-              h4 Presión estática: 
-              p Es la que tiene un fluido y es independiente de la velocidad con la que este se mueve.
-            .tarjeta.bg_02.p-4
-              figure.mb-4
-                img.img-t.m-auto(src='@/assets/curso/tema1/img07.svg')
-              h4 Presión dinámica: 
-              p Depende directamente de la velocidad con la que el fluido se mueve y de su propia densidad.
+        .col-lg-12
+          .row.justify-content-center.mb-4
+            .col-lg-3.col-md-6.mb-4.mb-lg-0
+              .tarjeta.bg_02.p-4
+                figure.mb-4
+                  img.img-t.m-auto(src='@/assets/curso/tema1/img04.svg')
+                h4 Presión atmosférica: 
+                p Fuerza que ejerce el aire sobre una superficie, esta depende de la altura del nivel del mar, cuando es mayor la altura, la presión es menor y cuando es menor la altura, la presión es mayor. 
+            .col-lg-3.col-md-6.mb-4.mb-lg-0
+              .tarjeta.bg_02.p-4
+                figure.mb-4
+                  img.img-t.m-auto(src='@/assets/curso/tema1/img05.svg')
+                h4 Presión manométrica: 
+                p Es la diferencia entre la presión absoluta y la atmosférica. Se aplica cuando la presión absoluta es mayor a la atmosférica, cuando esta presión es negativa se llama presión de vacío. 
+            .col-lg-3.col-md-6.mb-4.mb-lg-0
+              .tarjeta.bg_02.p-4
+                figure.mb-4
+                  img.img-t.m-auto(src='@/assets/curso/tema1/img06.svg')
+                h4 Presión estática: 
+                p Es la que tiene un fluido y es independiente de la velocidad con la que este se mueve.
+            .col-lg-3.col-md-6.mb-4.mb-lg-0
+              .tarjeta.bg_02.p-4
+                figure.mb-4
+                  img.img-t.m-auto(src='@/assets/curso/tema1/img07.svg')
+                h4 Presión dinámica: 
+                p Depende directamente de la velocidad con la que el fluido se mueve y de su propia densidad.
 
     .row.mb-5
       .col-lg-12
@@ -69,38 +73,72 @@
 
     p.text-bold.mb-5(data-aos="fade-right") Los siguientes son los barómetros y manómetros usados en el proceso de transformación del cacao:
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-12
         .row.justify-content-center.mb-5.m_top
           .col-lg-3.col-md-6.mb-4.mb-lg-0(data-aos="fade-right")
             .tarjeta-avatar
               img.img44.mx-auto(src='@/assets/curso/tema1/img10.png' alt='AvatarTop')
               .tarjeta.color_01
-                .p-4.pt-5
+                .p-4.pt-5.pt-lg-4
                   h4.mt-5 Barómetro de mercurio:
                   p Tubo de vidrio de 850 mm de altura, parte superior sellado e inferior abierto. Mide la presión ajustando el mercurio en el tubo hasta que el peso de la columna iguala la fuerza atmosférica ejercida en el objeto. 
   
-          .col-lg-3.col-md-6.mb-4.mb-lg-0(data-aos="fade-up")
+          .col-lg-3.col-md-6.mb-4.mb-lg-0.img_tarjeta.m_bottom(data-aos="fade-up")
             .tarjeta-avatar
               img.img-t.mx-auto.m_top1(src='@/assets/curso/tema1/img11.png' alt='AvatarTop')
               .tarjeta.color_01
-                .p-4.pt-5
+                .p-4.pt-5.pt-lg-4
                   h4.mt-5 Barómetro aneroide: 
                   p Se caracteriza por su precisión, la presión atmosférica deforma la pared en el que se generó un vacío, moviendo así la aguja. 
         
-          .col-lg-3.col-md-6.mb-4.mb-lg-0(data-aos="fade-left")
+          .col-lg-3.col-md-6.mb-4.mb-lg-0.img_tarjeta3.d-none.d-lg-block(data-aos="fade-left")
             .tarjeta-avatar
               img.img44.mx-auto.m_top4(src='@/assets/curso/tema1/img12.png' alt='AvatarTop')
               .tarjeta.color_01
-                .p-4.pt-5
+                .p-4.pt-5.pt-lg-4
                   h4.mt-5 Manómetro de columna de líquido: 
                   p Es el ideal para medir pequeñas diferencias de presión, sus dos variables son: tubo de vidrio (indicaciones de presiones).
 
-          .col-lg-3.col-md-6.mb-4.mb-lg-0(data-aos="fade-up")
+          .col-lg-3.col-md-6.mb-4.mb-lg-0.img_tarjeta.d-none.d-lg-block(data-aos="fade-up")
             .tarjeta-avatar
               img.img-t.mx-auto.m_top2(src='@/assets/curso/tema1/img13.png' alt='AvatarTop')
               .tarjeta.color_01
-                .p-4.pt-5
+                .p-4.pt-5.pt-lg-4
+                  h4.mt-5 Manómetro de Bourdon: 
+                  p A medida que aumenta la presión a medir, el tubo tiende a desenrollarse, y a medida que disminuye, el tubo tiende a doblarse más.
+    .row.justify-content-center
+      .col-lg-12
+        .row.justify-content-center
+          .col-lg-3.col-md-6.d-lg-none.d-none(data-aos="fade-right")
+            .tarjeta-avatar
+              img.img44.mx-auto(src='@/assets/curso/tema1/img10.png' alt='AvatarTop')
+              .tarjeta.color_01
+                .p-4.pt-5.pt-lg-4
+                  h4.mt-5 Barómetro de mercurio:
+                  p Tubo de vidrio de 850 mm de altura, parte superior sellado e inferior abierto. Mide la presión ajustando el mercurio en el tubo hasta que el peso de la columna iguala la fuerza atmosférica ejercida en el objeto. 
+  
+          .col-lg-3.col-md-6.mb-4.mb-lg-0.img_tarjeta.d-lg-none.d-none(data-aos="fade-up")
+            .tarjeta-avatar
+              img.img-t.mx-auto.m_top1(src='@/assets/curso/tema1/img11.png' alt='AvatarTop')
+              .tarjeta.color_01
+                .p-4.pt-5.pt-lg-4
+                  h4.mt-5 Barómetro aneroide: 
+                  p Se caracteriza por su precisión, la presión atmosférica deforma la pared en el que se generó un vacío, moviendo así la aguja.
+
+          .col-lg-3.col-md-6.mb-4.mb-lg-0.img_tarjeta3.d-lg-none.d-md-block(data-aos="fade-left")
+            .tarjeta-avatar
+              img.img44.mx-auto.m_top4(src='@/assets/curso/tema1/img12.png' alt='AvatarTop')
+              .tarjeta.color_01
+                .p-4.pt-5.pt-lg-4
+                  h4.mt-5 Manómetro de columna de líquido: 
+                  p Es el ideal para medir pequeñas diferencias de presión, sus dos variables son: tubo de vidrio (indicaciones de presiones).
+
+          .col-lg-3.col-md-6.mb-4.mb-lg-0.img_tarjeta.d-lg-none.d-md-block(data-aos="fade-up")
+            .tarjeta-avatar
+              img.img-t.mx-auto.m_top2(src='@/assets/curso/tema1/img13.png' alt='AvatarTop')
+              .tarjeta.color_01
+                .p-4.pt-5.pt-lg-4
                   h4.mt-5 Manómetro de Bourdon: 
                   p A medida que aumenta la presión a medir, el tubo tiende a desenrollarse, y a medida que disminuye, el tubo tiende a doblarse más.
 
@@ -111,7 +149,7 @@
         figure
           img.img-t.m_left3(src='@/assets/curso/tema1/img08.svg')          
 
-    .bg_01.p-5.mb-5
+    .bg_color1.p-5.mb-5
       .row.align-items-center.mb-4(data-aos="fade-right")
         .col-auto 
           img.img-t.m-auto(src='@/assets/curso/tema1/img03.svg')
@@ -126,7 +164,7 @@
 
       .row.justify-content-center.mb-5(data-aos="fade-down-right")
         .col-lg-10    
-          .tabla-a.color-secundario.mb-5 
+          .tabla-a.color-secundario
             table
               thead
                 tr.color_02            
@@ -161,7 +199,7 @@
                   td.text-center(colspan="3") 32 °F
                   td.text-center(colspan="2") 212.0 °F
 
-      p.text-bold Respecto a los aparatos de medición, los siguientes son los que más se utilizan en el proceso de transformación del cacao:
+      p.text-bold.mb-5 Respecto a los aparatos de medición, los siguientes son los que más se utilizan en el proceso de transformación del cacao:
 
       .row.align-items-center.mb-4(data-aos="fade-right")
         .col-lg-4.col-md-6.col-12.mb-4.mb-lg-0
@@ -194,7 +232,7 @@
         figure
           img.img-t.m_left3(src='@/assets/curso/tema1/img08.svg')               
 
-    .bg_01.p-5
+    .bg_color1.p-5
       .row.align-items-center.mb-4(data-aos="fade-right")
         .col-auto 
           img.img-t.m-auto(src='@/assets/curso/tema1/img03.svg')
@@ -231,14 +269,14 @@
         figure
           img.img-t.m_left3(src='@/assets/curso/tema1/img08.svg')               
 
-    .bg_01.p-5
+    .bg_color1.p-5
       .row.align-items-center.mb-4(data-aos="fade-right")
         .col-auto 
           img.img-t.m-auto(src='@/assets/curso/tema1/img03.svg')
         .col-6.col-lg-3
           h4.m-0.color-text1 Volumen
 
-      .row.justify-content-center.mb-4
+      .row.justify-content-center.mb-5.mb-lg-4
         .col-lg-7(data-aos="fade-right")
           p Se entiende como la medida de la extensión tridimensional de un objeto en un espacio determinado, su unidad de medida universal es el metro cúbico, pero en sustancias líquidas se mide por litros o en pequeñas proporciones por centímetros cúbicos; cuando la densidad del material es constante se puede expresar su volumen en peso.
           p Respecto al proceso de transformación del cacao, esta medida se usa en las pruebas de laboratorio de calidad. Para medir el líquido de cacao se utilizan probetas graduadas en cm³; ahora, si se desea medir el volumen de una pieza de chocolate, se debe de sumergir este en probeta con agua, se procede a medir la diferencia en líquido, sabiendo esto se resta al volumen inicial, obteniendo así el volumen de la pieza añadida. 
@@ -255,7 +293,7 @@
           .col-lg-2.mb-3(data-aos="fade-right")
             img.img-t.m-auto(src='@/assets/curso/tema1/img24.svg')
           .col-lg-10(data-aos="fade-left")
-            p.m-0 El volumen puede presentarse de diferentes formas dependiendo de la temperatura y el estado de agregación de la materia. Los cuerpos en estado sólido cuentan con dos tipos de volúmenes, el fijo y el determinado; los líquidos y gases no cuentan con volumen fijo, por eso se pueden adaptar a los espacios donde se presentan. Dependiendo de la temperatura, los volúmenes de los tres tipos de sustancias conocidas (liquido, sólido y/o gaseoso) cambian al expandirse o contraerse. 
+            p.m-0 El volumen puede presentarse de diferentes formas dependiendo de la temperatura y el estado de agregación de la materia. Los cuerpos en estado sólido cuentan con dos tipos de volúmenes, el fijo y el determinado; los líquidos y gases no cuentan con volumen fijo, por eso se pueden adaptar a los espacios donde se presentan. Dependiendo de la temperatura, los volúmenes de los tres tipos de sustancias conocidas (líquido, sólido y/o gaseoso) cambian al expandirse o contraerse. 
 
 
 

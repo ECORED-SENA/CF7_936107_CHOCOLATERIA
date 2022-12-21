@@ -80,18 +80,18 @@
     margin-left: 73%
 
 .m_left3
-  margin-left: -2%
+  margin-left: -5.9%
   margin-bottom: -7%
   @media (max-width: $bp-max-md)
-    margin-left: -4%
+    margin-left: -11.2%
     margin-bottom: -14%
   @media (max-width: $bp-max-xs)
-    margin-left: -7%
+    margin-left: -12%
     margin-bottom: -24%
 
 .m_left4
-  margin-left: 87.6%
-  margin-top: -15%
+  margin-left: 91.4%
+  margin-top: -7.5%
   width: 178px
   @media (max-width: $bp-max-md)
     margin-left: 74%
@@ -156,8 +156,12 @@
 .m_left11
   margin-left: -7%
 
+.bg_color01
+  background-color: #FFF6DF
+
 .bg_color1
   background-color: #FFF6DF
+  margin-inline: -49px
 
 .bg_color2
   background-color: #FEE9B5
@@ -167,6 +171,7 @@
 
 .bg_01
   background-color: #FFECDE
+  margin-inline: -49px
 
 .color-text1
   color: #7D5F54
@@ -194,12 +199,26 @@
   max-width: 44px
 
 .tarjeta-avatar > img 
-  top: -115px
+  top: -27%
+
+.img_tarjeta
+  .tarjeta-avatar > img 
+      top: -27%
+      @media (max-width: $bp-max-xs)
+        top: -35%!important
+
+.img_tarjeta3
+  .tarjeta-avatar > img 
+      top: -27%
+      @media (max-width: $bp-max-xs)
+        top: -58%!important
 
 .m_top
   margin-top: 8%!important
+  @media (max-width: $bp-max-xl)
+    margin-top: 12%!important
   @media (max-width: $bp-max-md)
-    margin-top: 14%!important
+    margin-top: 16%!important
   @media (max-width: $bp-max-xs)
     margin-top: 22%!important
 
@@ -213,17 +232,20 @@
   margin-top: -5%!important
 
 .m_top4
-  margin-top: -5%!important
   @media (max-width: $bp-max-md)
-    margin-top: 38%!important
+    margin-top: 3%!important
   @media (max-width: $bp-max-xs)
-    margin-top: 32%!important
+    margin-top: 22%!important
 
 .m_top5
   margin-top: -7%!important
 
 .m_top6
   margin-top: -15%!important
+
+.m_bottom
+  @media (max-width: $bp-max-xs)
+    margin-bottom: 18%!important
 
 .bg_03
   background-color: #FFF6DF
@@ -242,7 +264,11 @@
   border-radius: 10px 
   height: 415px
 
-.tarjeta--azul 
+.acordion
+  .tarjeta--azul
+    background-color: #E1DDDB !important  
+
+.tarjeta--azul.acordion__activo 
   background-image: url("../assets/curso/tema1/img21.png")
   background-repeat: no-repeat
   background-size: 100% 100%
@@ -281,9 +307,26 @@
 
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
     background-color: #FD7F23
+    width: 50px
+    height: 50px
+    background-size: 16px 24px
+    @media (max-width: $bp-max-xs)
+      width: 35px
+      height: 35px
+      background-size: 12px 24px
+
+.slyder-a__bullets__item 
+  width: 15px
+  height: 15px
+  margin: 0px 10px
+  @media (max-width: $bp-max-xs)
+    width: 10px
+    height: 10px
+    margin: 0px 5px    
 
 .bg_08
   background-color: #F6F6F6
+  margin-inline: -49px
 
 .tarjeta.color-acento-botones 
     background-color: #F9F0DD
@@ -342,13 +385,15 @@
     border-radius: 50%
     margin-left: 46%
 
-.bullets_sly-t4
-  .slyder-a__bullets__item 
-    border: 0px!important
-
-.bullets-active_sly-t4
-  .slyder-a__bullets__item--active 
-    background-color: transparent!important   
+.m_li-vineta 
+  .lista-ol--cuadro__vineta
+    min-width: 60px
+    height: 60px
+    border-radius: 50%
+    margin-left: 10%
+    border: solid 2px #FEE9B5
+    @media (max-width: $bp-max-xs)
+      margin-left: 0%
 
 .bg_13
   position: relative
@@ -363,9 +408,10 @@
     width: 100%
     height: 41%
     background-color: #FFF6DF
-    //@media (max-width: $bp-max-md)
-      left: 0%
-      width: 100%
+    @media (max-width: $bp-max-xs)
+      height: 31%!important
+    @media (max-width: $bp-max-md)
+      height: 23%
 
 .bg_14
   background-color: #7D5F54
@@ -391,3 +437,7 @@
 
 .p_left
   padding-left: 42%
+
+.bg_color4
+  background-color: #FCC02D
+  border-radius: 12px

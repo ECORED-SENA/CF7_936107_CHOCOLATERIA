@@ -65,7 +65,7 @@
                 p Cada partícula del chocolate está recubierta por una capa de grasa que ayuda a su lubricación, su distribución en cuanto a tamaño es un indicador de calidad del producto, si las partículas son pequeñas, su superficie debe ser grande y por ende se necesita mayor contenido de grasa; pero, si las partículas son grandes, su superficie es pequeña y por ende necesita menos grasa. Un chocolate es de mala calidad o calidad de combate cuando más del 15% de las partículas son mayores a 15 µm.
             .col-11.col-lg-5.mt-0.mt-md-4
               figure
-                img.img-t.m-auto(src='@/assets/curso/tema2/img05.png', alt='Texto que describa la imagen')
+                img.img-t.m-auto(src='@/assets/curso/tema2/img10.png', alt='Texto que describa la imagen')
           .row.justify-content-around
             .col-11.col-lg-5.mb-4.mb-lg-0.align-self-center
               div
@@ -73,7 +73,7 @@
                 p Cuando las piezas de chocolate son expuestas a altas temperaturas, su estado de espesamiento aumenta, aunque este puede reducir si contienen lecitina, en especial en el chocolate oscuro. Las piezas que contienen fosfolípidos, cuando se exponen a temperaturas de 20°C, no presentan espesamiento.
             .col-11.col-lg-5.mt-0.mt-md-4
               figure
-                img.img-t.m-auto(src='@/assets/curso/tema2/img06.png', alt='Texto que describa la imagen')
+                img.img-t.m-auto(src='@/assets/curso/tema2/img05.png', alt='Texto que describa la imagen')
           .row.justify-content-around
             .col-11.col-lg-5.mb-4.mb-lg-0.align-self-center
               div
@@ -81,7 +81,7 @@
                 p Al comienzo, no todas las partículas están cubiertas de grasa y, por lo general, solo se ha agregado una pequeña cantidad de lecitina. El contenido de humedad también es ligeramente mayor que al final de la fase. Como resultado, la viscosidad aparente de la masa de chocolate crudo es muy alta y, a menudo, difícil de medir.
             .col-11.col-lg-5.mt-0.mt-md-4
               figure
-                img.img-t.m-auto(src='@/assets/curso/tema2/img07.png', alt='Texto que describa la imagen')
+                img.img-t.m-auto(src='@/assets/curso/tema2/img06.png', alt='Texto que describa la imagen')
           .row.justify-content-around
             .col-11.col-lg-5.mb-4.mb-lg-0.align-self-center
               div
@@ -89,7 +89,7 @@
                 p Esta operación consiste en inducir la precristalización parcial de la manteca del cacao. Por lo tanto, durante el atemperado, la cantidad de partículas sólidas aumenta ligeramente y con ella, también su viscosidad. Por otra parte, es en este estado en el que se utiliza el chocolate para el moldeo.
             .col-11.col-lg-5.mt-0.mt-md-4
               figure
-                img.img-t.m-auto(src='@/assets/curso/tema2/img08.png', alt='Texto que describa la imagen')
+                img.img-t.m-auto(src='@/assets/curso/tema2/img07.png', alt='Texto que describa la imagen')
           .row.justify-content-around
             .col-11.col-lg-5.mb-4.mb-lg-0.align-self-center
               div

@@ -12,7 +12,7 @@
         figure
           img.img-t.m_left(src='@/assets/curso/introduccion/img01.svg')
 
-    p.m_top5 Se conoce como producto no conforme aquel que no cumple con algún requisito definido en los sistemas de gestión de calidad propios de cada empresa o proceso productivo, recordemos que dichos sistemas controlan la ejecución de las fases de los procesos de producción; con el fin de que se cumplan con todos los estándares solicitados por normatividad o por los estándares establecidos internamente.
+    p.m_top5.mb-4 Se conoce como producto no conforme aquel que no cumple con algún requisito definido en los sistemas de gestión de calidad propios de cada empresa o proceso productivo, recordemos que dichos sistemas controlan la ejecución de las fases de los procesos de producción; con el fin de que se cumplan con todos los estándares solicitados por normatividad o por los estándares establecidos internamente.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-1.mb-4.mb-lg-0(data-aos="fade-right")
@@ -22,28 +22,47 @@
         .bg_color2.p-4.px-5(data-aos="fade-left")
           p.m-0 En cada proceso se debe establecer en que parte del sistema se pueden presentar fallas que lleven al producto no conforme con el fin de minimizar, eliminar el riesgo o reparar la falla.
       
-    p.text-bold Los siguientes son los requisitos que debe de cumplir el producto en toda la cadena productiva para no ser considerado como no conforme:
+    p.text-bold.mb-4 Los siguientes son los requisitos que debe de cumplir el producto en toda la cadena productiva para no ser considerado como no conforme:
 
-    .bg_08.p-5.mb-5
+    .bg_08.p-5.mb-5.d-none.d-lg-block
       .row.justify-content-end
         .col-lg-12
           figure
             img.img-t.m_left7(src='@/assets/curso/introduccion/img03.svg')
-      ImagenInfografica.color-secundario.m_top6(data-aos="fade-down-right")
-        template(v-slot:imagen)
-          figure
-            img.img-t.m-auto(src='@/assets/curso/tema3/img02.png', alt='Texto que describa la imagen')
+      .row.justify-content-center
+        .col-lg-12
+          ImagenInfografica.color-secundario.m_top6(data-aos="fade-down-right")
+            template(v-slot:imagen)
+              figure
+                img.img-t.m-auto(src='@/assets/curso/tema3/img02.png', alt='Texto que describa la imagen')
 
-        .tarjeta.color-acento-botones.p-3(x="44%" y="18.8%" numero="")
-          p.m-0 Se observa aspecto y tamaño, se buscan las que han tenido lesiones causadas por hongos o contacto con animales, así un color diferente al habitual.
+            .tarjeta.color-acento-botones.p-3(x="44%" y="18.8%" numero="")
+              p.m-0 Se observa aspecto y tamaño, se buscan las que han tenido lesiones causadas por hongos o contacto con animales, así un color diferente al habitual.
 
-        .tarjeta.color-acento-botones.p-3(x="58%" y="37%" numero="")
-          p.m-0 Se identifican los que presentan un olor fétido y se separan de las que se van a procesar.
+            .tarjeta.color-acento-botones.p-3(x="58%" y="37%" numero="")
+              p.m-0 Se identifican los que presentan un olor fétido y se separan de las que se van a procesar.
 
-        .tarjeta.color-acento-botones.p-3(x="48.4%" y="53.7%" numero="")
-          p.m-0 Se determina la humedad de estas, ésta no puede exceder el 7 %.
+            .tarjeta.color-acento-botones.p-3(x="48.4%" y="53.7%" numero="")
+              p.m-0 Se determina la humedad de estas, ésta no puede exceder el 7 %.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .bg_08.p-4.mb-5.d-lg-none.d-md-block
+      .row.justify-content-center
+        .col-11.col-md-12
+          ImagenInfografica.color-secundario(data-aos="fade-down-right")
+            template(v-slot:imagen)
+              figure
+                img.img-t.m-auto(src='@/assets/curso/tema3/img02.png', alt='Texto que describa la imagen')
+
+            .tarjeta.color-acento-botones.p-3(x="44%" y="18.8%" numero="")
+              p.m-0 Se observa aspecto y tamaño, se buscan las que han tenido lesiones causadas por hongos o contacto con animales, así un color diferente al habitual.
+
+            .tarjeta.color-acento-botones.p-3(x="58%" y="37%" numero="")
+              p.m-0 Se identifican los que presentan un olor fétido y se separan de las que se van a procesar.
+
+            .tarjeta.color-acento-botones.p-3(x="48.4%" y="53.7%" numero="")
+              p.m-0 Se determina la humedad de estas, ésta no puede exceder el 7 %.
+
+    .row.justify-content-center.align-items-center.mb-5.mt-5
       .col-lg-7
         .row.align-items-center.mb-4(data-aos="fade-right")
           .col-auto 
@@ -113,7 +132,7 @@
               .col-lg-12
                 figure
                   img.img-t.m_left8(src='@/assets/curso/tema3/img05.png')
-            p.m-0 Los productos no conforme también incluyen el producto final de la cadena de transformación, es decir:  pastillas de chocolate de mesa, chocolatinas, bombones, hojuelas de cobertura etc. Esto también se conoce como defectos.  En general deben cumplir con una apariencia, olor y forma agradable que corresponda a los estándares comerciales, generalmente hacen parte del proceso de elaboración.
+            p.m-0 Los productos no conforme también incluyen el producto final de la cadena de transformación, es decir:  pastillas de chocolate de mesa, chocolatinas, bombones, hojuelas de cobertura, etc. Esto también se conoce como defectos.  En general deben cumplir con una apariencia, olor y forma agradable que corresponda a los estándares comerciales, generalmente hacen parte del proceso de elaboración.
 
         .row.justify-content-end
           .col-lg-12
